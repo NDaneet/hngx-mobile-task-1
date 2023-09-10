@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hngx_mobile_task1/profile_screeen.dart';
+import 'package:hngx_mobile_task1/profile_screen.dart';
 
 void main() {
   runApp(const MainApp());
