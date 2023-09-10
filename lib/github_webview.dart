@@ -23,7 +23,9 @@ class _GitHubWebViewState extends State<GitHubWebView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("GitHub"),
+        backgroundColor: Colors.black,
+        centerTitle: true,
+        title: const Text("GitHub Profile"),
       ),
       body: WebViewWidget(controller: controller),
     );
