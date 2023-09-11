@@ -14,7 +14,7 @@ class ProfileScreen extends StatelessWidget {
     final bool isScreenLarge = screenWidth > 500;
     return Center(
       child: Padding(
-        padding: const EdgeInsets.all(15.0),
+        padding: const EdgeInsets.all(25.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
